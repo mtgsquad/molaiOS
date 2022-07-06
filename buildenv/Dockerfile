@@ -7,5 +7,5 @@ RUN apt-get install -y grub-pc-bin
 RUN apt-get install -y grub-common
 RUN apt-get install -y xorriso
 
-VOLUME /root/env
+VOLUME .:/root/env
 WORKDIR /root/env
