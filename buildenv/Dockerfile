@@ -9,3 +9,4 @@ RUN apt-get install -y xorriso
 
 VOLUME .:/root/env
 WORKDIR /root/env
+RUN nasm -f bin boot.asm -o boot.bin
